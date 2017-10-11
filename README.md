@@ -9,7 +9,7 @@ El propósito del repositorio es cambiar Webpack para generar los ficheros de pr
 - Se han cambiado las rutas en config/index.js: 
 
     index: path.resolve(__dirname, 'index.html'),
-    assetsRoot: path.resolve(__dirname, 'docs'),
+    assetsRoot: path.resolve(__dirname, '.'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/vue-master-docs/docs/',
 
