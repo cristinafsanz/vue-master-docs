@@ -6,13 +6,16 @@ El propósito del repositorio es cambiar Webpack para generar los ficheros de pr
 
 ## Instrucciones:
 
-- Se han cambiado las rutas en config/index.js: 
+- El artículo [Documenting your VueJS project with Github pages](http://blog.toast38coza.me/documenting-your-vuejs-project-with-github-pages/) lo explica muy bien:
 
-    index: path.resolve(__dirname, 'index.html'),
-    assetsRoot: path.resolve(__dirname, '.'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: '/vue-master-docs/docs/',
+	- Editar config/index.js y cambiar ../dist a ../docs.
 
-- npm install
+	- Cambiar assetsPublicPath: assetsPublicPath: './'
 
-- npm run build
+	- npm install
+
+	- npm run build
+
+- Se habilita GitHub Pages en /docs.
+
+- El resultado se puede ver en https://cristinafsanz.github.io/vue-master-docs/.
