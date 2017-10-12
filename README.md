@@ -6,7 +6,7 @@ El propósito del repositorio es cambiar Webpack para generar los ficheros de pr
 
 ## Instrucciones:
 
-- El artículo [Documenting your VueJS project with Github pages](http://blog.toast38coza.me/documenting-your-vuejs-project-with-github-pages/) lo explica muy bien:
+- El artículo [Documenting your VueJS project with Github pages](http://blog.toast38coza.me/documenting-your-vuejs-project-with-github-pages/) explica los cambios en Webpack para publicar en GitHub Pages en /docs:
 
 	- Editar config/index.js y cambiar ../dist a ../docs.
 
@@ -18,4 +18,4 @@ El propósito del repositorio es cambiar Webpack para generar los ficheros de pr
 
 - Se habilita GitHub Pages en /docs.
 
-- El resultado se puede ver en https://cristinafsanz.github.io/vue-master-docs/.
+- El resultado se puede ver en https://cristinafsanz.github.io/vue-master-docs/#/.
